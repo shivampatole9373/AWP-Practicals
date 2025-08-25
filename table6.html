@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time Table</title>
+</head>
+<body>
+  <table border="1" cellspacing="0" cellpadding="15" 
+         style="border-collapse:collapse; text-align:center; font-family:Arial; margin:auto;">
+    <!-- Title Row -->
+    <tr>
+      <td colspan="6" style="border:2px solid black; font-weight:bold;">Time Table</td>
+    </tr>
+    
+    <!-- Header Row -->
+    <tr>
+      <td rowspan="6" style="border:2px solid black; font-weight:bold;">Hours</td>
+      <td style="border:2px solid black; font-weight:bold;">Mon</td>
+      <td style="border:2px solid black; font-weight:bold;">Tue</td>
+      <td style="border:2px solid black; font-weight:bold;">Wed</td>
+      <td style="border:2px solid black; font-weight:bold;">Thu</td>
+      <td style="border:2px solid black; font-weight:bold;">Fri</td>
+    </tr>
+    
+    <!-- First Two Rows -->
+    <tr>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Arts</td>
+    </tr>
+    <tr>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Arts</td>
+    </tr>
+    
+    <!-- Lunch Break -->
+    <tr>
+      <td colspan="5" style="border:2px solid black; font-weight:bold;">LUNCH</td>
+    </tr>
+    
+    <!-- Last Two Rows -->
+    <tr>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Project</td>
+    </tr>
+    <tr>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;">Science</td>
+      <td style="border:2px solid black;">Maths</td>
+      <td style="border:2px solid black;"></td>
+    </tr>
+  </table>
+</body>
+</html>
